@@ -1,6 +1,6 @@
 const clientId = process.env.REACT_APP_SPOTIFYCLIENTID;
-// const redirectURI = process.env.REACT_APP_SPOTIFYREDIRECTURI;
-const redirectURI = 'https://jammming.mattblanch.dev';
+const redirectURI = process.env.REACT_APP_SPOTIFYREDIRECTURI;
+// const redirectURI = 'https://jammming.mattblanch.dev';
 
 let userAccessToken = '';
 const Spotify = {
